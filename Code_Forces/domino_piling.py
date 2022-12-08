@@ -1,4 +1,5 @@
-def DominoPiling(m,n):
-    return (m*n)//2
+m, n = map(int, input().split())
+res = int(m*n / 2)
+print(res)
 
-print(DominoPiling(4,2))
+m,n=4,2
