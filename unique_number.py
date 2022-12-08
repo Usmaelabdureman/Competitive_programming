@@ -1,14 +1,14 @@
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         nums=[str(c) for c in arr]
-        mydict={}
+        myDict={}
         freq=[]
         for i in nums:
-            if i in mydict:
-                mydict[i]+=1
+            if i in myDict:
+                myDict[i]+=1
             else:
-                mydict[i]=1
-        for i in mydict.values():
+                myDict[i]=1
+        for i in myDict.values():
             if i not in freq:
                 freq.append(i)
             else :
