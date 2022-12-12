@@ -1,14 +1,8 @@
-def targetIndices(nums, target: int):
-    sorted=nums.sort(key=len)
-    lst=[]
-
-    for i in range(sorted) :
-        if target==sorted[i]:
-            lst.append(i)
-    return lst
-
-num = [1,2,5,2,3]
-target=5
-print(targetIndices(num,target))
-
-print(num.sort(reverse=False))
+class Solution(object):
+    def targetIndices(self, nums: List[int], target: int) -> List[int]:
+        nums.sort()
+        lst=[]
+        for i in range(len(nums)):
+            if nums[i]==target:
+                lst.append(i)
+        return lst
