@@ -1,17 +1,11 @@
-def largestNumber(nums):
-    nums=(str(i) for i in nums)
-    pass
-
-st=[1,20,4,5]
-ls=[]
-for i in range(len(st)):
-    ls.append(str(st[i]))
-
-res=''.join(ls)
-output=[]
-for j in res:
-    output.append(int(j))
-
-output.sort(reverse=True)
-
-print(output)
+class Solution:
+    def largestNumber(self, nums: List[int]) -> str:
+        for i,n in enumerate(nums):
+            nums[i]=str(n)
+        def compare(n1,n2):
+            if n1+n2>n2+n1:
+                return -1
+            else:
+                return 1
+        nums=sorted(nums,key=cmp_to_key(compare))
+        return str(int(''.join(nums)))
