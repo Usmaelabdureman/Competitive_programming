@@ -1,23 +1,23 @@
 class Solution:
     def maxVowels(self, s: str, k: int) -> int:
         vowels={'a','e','o','u','i'}
+        len_arr=len(s)
         cnt=0
-        left,right=0,0
-        max_count = 0
-        while left <= len(s) - k and right < len(s):
-            if (right - left + 1) < k:
-                if s[right] in vowels:
-                    cnt += 1
-                right += 1
-            elif (right - left + 1) == k:
-                print(left, right)
-                if s[left] in vowels:
-                    cnt -= 1
-                if (right+1) < len(s) and s[right+1] in vowels:
-                    cnt += 1
-                if cnt > max_count:
-                    max_count = cnt
-                left += 1
-            right += 1
+        for i in range(k):
+            if s[i] in vowels:cnt+=1
+        #initializing starting index and end index for windows
 
-        return max_count
+        left=0
+        right=k-1
+        max_vowel = cnt
+        while (right < len_arr-1):
+            if s[left] in vowels: #if vowels already counted in previous window remove it from current window
+                cnt-=1
+            left+=1
+            right+=1
+            if s[right] in vowels:
+                cnt+=1
+            max_vowel=max(max_vowel,cnt)
+        return max_vowel
+
+            
