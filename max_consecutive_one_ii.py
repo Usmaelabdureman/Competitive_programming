@@ -1,3 +1,6 @@
+#by using sliding window technique 
+#time complexity O(n)
+#space complexity O(1)
 def findMaxConsecutiveOnes(arr):
     maxOneCount,l=0,0
     while l<len(arr):
@@ -11,17 +14,3 @@ def findMaxConsecutiveOnes(arr):
             l=r+1
                 
     return maxOneCount
-#using two loop with O(n^2) looks the following
-# def findMaxconsOnes(arr):
-#     maxOneCount=0
-#     for i in range(len(arr)):
-#         maxCount=0
-#         for j in range(i,len(arr)):
-#                 if arr[j]==1:
-#                     maxCount+=1
-#                 else:
-#                     break
-#                 maxOneCount=max(maxOneCount,maxCount)
-#     return maxOneCount
-ts=[0,1,1,1,1,0,0,1,1]
-print(findMaxConsecutiveOnes(ts))
