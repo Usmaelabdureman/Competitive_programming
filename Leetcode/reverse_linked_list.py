@@ -9,16 +9,11 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        if head == None:
-            return None
-        if head.next == None:
-            return head
-        else:
-            temp = self.reverseList(head.next)
-            if(temp != None):
-                current = temp
-                while(temp.next != None):
-                    temp = temp.next
-                head.next = temp.next
-                temp.next = head
-        return current
+        new_list = None
+        current = head
+        while current:
+            new_data = current.next # new_date
+            current.next = new_list 
+            new_list = current # new_list = {val=2, next=ListNode{1, None}
+            current = new_data # current = None
+        return new_list
