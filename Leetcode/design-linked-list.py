@@ -1,74 +1,82 @@
-class Node:
-    def __init__(self,val):
-        self.val=val
-        self.next=None
-class MyLinkedList(object):
+class MyLinkedList:
     def __init__(self):
-        self.head=None
-        self.tail=None
-    
-    def get(self, index):
-        """
-        :type index: int
-        :rtype: int
-        """
-        curr=self.getNode(index)
-        return -1 if curr==None else curr.val
-
-    def getNode(self,index):
-            i=0
-            cur=self.head
-            while (i<index and cur!=None):
-                cur=cur.next
-                i+=1
-            return cur
-    def addAtHead(self, val):
-        """
-        :type val: int
-        :rtype: None
-        """
-        current=Node(val)
-        current.next=self.head
-        self.head=current
-    def addAtTail(self, val):
-        """
-        :type val: int
-        :rtype: None
-        """
-        if self.head==None:
-            self.addAtHead(val)
-        newNode=Node(val)
-        last=self.head
-        while last.next is not None:
-            last=last.next
-        last.next=newNode
-     
-    def addAtIndex(self, index, val):
-        """
-        :type index: int
-        :type val: int
-        :rtype: None
-        """
-        if index==0:
-            self.addAtHead(val)
-
-        prev=self.getNode(index-1)
-        if prev is None:return 
-        cur=Node(val)
-        next_elt=prev.next
-        cur.next=next_elt
-        prev.next=cur
-    def deleteAtIndex(self, index):
-        """
-        :type index: int
-        :rtype: None
-        """
-        current=self.head
-        i=0
-        while (i<index-1 and self.head.next is not None):
-
-            self.head = self.head.next
-            i+=1
-        self.head= self.head.next
-       
+        self.head = self
+        self.val = None
+        self.next = None
         
+    def get(self, index):
+        current = self.head
+        i = 0
+        if self.head != None and self.head.val == None:
+            return -1
+        if index == 0 and self.head != None:
+            return self.head.val
+        while i < index and current != None:
+            current = current.next
+            i += 1
+        if current == None:
+            return -1
+        else:
+            return current.val
+
+    def addAtHead(self, val):
+        if self.val != None:
+            addedValue = MyLinkedList()
+            addedValue.val = val
+            addedValue.next = self.head
+            self.head = addedValue
+        elif self.val == None:
+            self.val = val
+
+    def addAtTail(self, val):
+        if self.val == None:
+            self.val = val
+            return
+        addedValue = MyLinkedList()
+        addedValue.val = val
+        currentTail = self.head
+        current = self.head
+        while current != None:
+            currentTail = current
+            current = current.next
+        currentTail.next = addedValue
+
+    def addAtIndex(self, index, val) :
+        addedValue = MyLinkedList()
+        addedValue.val = val
+        i = 0
+        current = self.head
+        if index == 0:
+            self.addAtHead(val)
+            return
+        while current != None and i < index - 1:
+            current = current.next
+            i += 1
+        if current != None:   
+            currentNext = current.next
+            current.next = addedValue
+            addedValue.next = currentNext
+
+    def deleteAtIndex(self, index):
+        i = 0
+        current = self.head
+        prev = current
+        if index == 0:
+            self.head = self.head.next
+            return
+        while i < (index) and current != None:
+            prev = current
+            current = current.next
+            i += 1
+        if current != None and current.next == None:
+            prev.next = None
+        elif current != None:
+            prev.next = current.next   
+        
+# Your MyLinkedList object will be instantiated and called as such:
+# obj = MyLinkedList()
+# param_1 = obj.get(index)
+# obj.addAtHead(val)
+# obj.addAtTail(val)
+# obj.addAtIndex(index,val)
+# obj.deleteAtIndex(index)
