@@ -21,7 +21,6 @@ def insertionSort1(n, arr):
         n=arr[i]
         j=i-1 #previous
         while j>=0 and arr[j]>n:
-           
             arr[j+1]=arr[j]
             j-=1
             print(' '.join(str(k) for k in arr))

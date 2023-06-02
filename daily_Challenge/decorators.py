@@ -64,6 +64,35 @@ def greeting(name):
 greeting("Usmael")
 
 # decorator example
+
+def palindrome(func):
+    def wrapper(func):
+        left=0
+        right=len(func)-1
+        while left<=right:
+            if func[left]==func[right]:
+                left += 1
+                right -= 1
+            else:
+                return False
+        return True
+    return wrapper
+def revers(func):
+    def wrapper(txt):
+        txt = list(txt)  # Convert txt to a list of characters
+        left = 0
+        right = len(txt) - 1
+        while left <= right:
+            txt[left], txt[right] = txt[right], txt[left]
+            left += 1
+            right -= 1
+        txt = ''.join(txt)  # Convert the list of characters back to a string
+        return txt
+    return wrapper
+
+
+
+        
 def makePretty(func):
     def Inner():
         print("I got decorated")
@@ -74,11 +103,12 @@ def test():
     print("I am an ordinary")
 test()
 
-def splitter(word):
+def splitter(func):
     def wrapper():
-        return list(word())
+        return list(func())
     return wrapper
 def reverse(func):
+    "reverse function reverses the array using built in method"
     def wrapper():
         return func()[::-1]
     return wrapper
@@ -91,6 +121,8 @@ def upper_case(func):
         return func().upper()
     return wrapper
 
+
+
 @upper_case 
 @join
 @reverse
@@ -98,3 +130,33 @@ def upper_case(func):
 def test():
     return "Hello"
 print(test())
+
+
+# Python Function Arguments
+def defaultVal(a=8,b=9):
+    "Function Argument with Default Values In computer programming, an argument is a value that is accepted by a function."
+    res=a+b
+    return print('Sum :',res)
+
+defaultVal()
+defaultVal(b=5)
+defaultVal(5,23)
+
+# program to find sum of multiple numbers 
+
+def find_sum(*numbers):
+    result = 0
+    for num in numbers:
+        result = result + num
+    print("Sum = ", result)
+def find_mul(a,b,*numbers,**args):
+    result = a*b
+    for i in numbers:
+        result = i*result
+    for k,v in args.items():
+        result=v*result
+    print("mul = ", result)
+
+find_sum(1,3,4,5,6,90)
+find_sum(1,3,4,5)
+find_mul(4,5,g=6,k=2,l=5)

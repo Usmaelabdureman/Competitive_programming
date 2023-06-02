@@ -9,3 +9,4 @@ class Solution:
             else:
                 max_cons=max(max_cons,idx-l+1)
         return max_cons
+    

@@ -12,5 +12,4 @@ def findMaxConsecutiveOnes(arr):
                 r+=1
             maxOneCount=max(maxOneCount,r-l+1)
             l=r+1
-                
     return maxOneCount

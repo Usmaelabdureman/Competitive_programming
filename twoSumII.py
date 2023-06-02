@@ -8,9 +8,9 @@ def twoSum(numbers, target):
             elif res>target:
                 rgt-=1
             else:
-                return [lft+1,rgt+1]
-
+                return [lft,rgt]
 numbers = [1,2,4,7,11,15]
-target = 9
+nums=[3,2,4]
+target = 6
 
-print(twoSum(numbers,target))
+print(twoSum(nums,target))

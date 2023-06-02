@@ -1,0 +1,41 @@
+Polycarp is an accomplished programmer, but he loves a good challenge. He recently came across an interesting problem that he needs your help with!
+Given an array of n integers, nums, and an integer k, Polycarp wants to find the maximum length of a contiguous subarray that has a sum equal to k. 
+Can you help Polycarp by implementing a function maxSubarrayLength(nums, k) that returns the maximum length of such a subarray? If there is no such subarray, 
+the function should return 0 instead.
+Can you impress Polycarp with your programming skills and solve this challenge?
+
+Example 1:
+Input: nums = [-1,1,5,-2,3], k = 3
+Output: 4
+Explanation: The subarray [1, -1, 5, -2] sums to 3 and is the longest.
+
+Example 2:
+Input: nums = [-2,-1,2,1], k = 1
+Output: 2
+Explanation: The subarray [-1, 2] sums to 1 and is the longest.
+
+def take_input():
+    length , k = map(int, input().split())
+    arr  = list(map(int, input().split()))
+    return  k, arr
+    
+    
+def longest_subarray_length( arr, k ):
+    # Interviewee’s code 
+    Sum=0
+    Store={}
+    for i in range(len(arr)):
+        Sum=Sum+arr[i]
+        if Sum==k:
+            return i+1
+
+
+
+if __name__ == "__main__":
+    tests = int(input())
+    for _ in range(tests):
+        k , arr = take_input() 
+        answer =longest_subarray_length( arr, k )
+        print(answer)
+        
+                                                                                                                                                                    

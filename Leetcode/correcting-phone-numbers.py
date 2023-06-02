@@ -3,7 +3,6 @@
 def PhoneCor(phone1,phone2):
     stack1=[]
     stack2=[]
-    
     for i in range(len(phone1)):
         if phone1[i]!='#':
             stack1.append(phone1[i])
