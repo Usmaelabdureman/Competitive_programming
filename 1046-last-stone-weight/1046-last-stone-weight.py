@@ -7,11 +7,11 @@ class Solution:
             # Get the two heaviest stones
             x = -heapq.heappop(max_heap)
             y = -heapq.heappop(max_heap)
-            # If the stones are not equal, create a new stone with the difference and add it back to the heap
+            # If the stones are not equal, create a new stone with the difference 
+            # add it back to the heap
             if x != y:
                 heapq.heappush(max_heap, y - x)
-
-        # If there is a stone left, return its weight (negate it back to positive)
+        # If there is a stone left, return its weight 
         return -max_heap[0] if max_heap else 0
 
 
