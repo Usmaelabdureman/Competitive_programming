@@ -5,7 +5,7 @@ class Solution(object):
         for u, v in richer:
             graph[v].append(u)
 
-        answer = [None] * N
+        answer = [None]*N
         def dfs(node):
             #Want least quiet person in this subtree
             if answer[node] is None:
