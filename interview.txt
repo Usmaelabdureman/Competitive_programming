@@ -24,6 +24,7 @@ def longest_subarray_length( arr, k ):
     # Interviewee’s code 
     Sum=0
     Store={}
+<<<<<<< HEAD
     maxLen=0
     for i in range(len(arr)):
         Sum=Sum+arr[i]
@@ -40,6 +41,12 @@ def longest_subarray_length( arr, k ):
         
 
 
+=======
+    for i in range(len(arr)):
+        Sum=Sum+arr[i]
+        if Sum==k:
+            return i+1
+>>>>>>> ae20d6194ee8fa2cc4011fc7178cee07d33bd35d
 
 
 
