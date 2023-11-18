@@ -61,8 +61,8 @@ from typing import List
 from itertools import accumulate
 class Solution:
     def dietPlanPerformance(self, calories:List[int], k:int, lower:int, upper:int) ->int:
-        
         s= list(accumulate(calories,initial=0))
+        print(s)
         ans ,n = 0,len(calories)
         
         for i in range(n-k+1):
@@ -95,3 +95,5 @@ if __name__=="__main__":
     
     print(Solution().dietPlanPerformance(test_case_3,k,lower,upper))
     
+# Time Complexity : O(N) where N is the length of calories.
+# Space Complexity : O(N) where N is the length of calories.
