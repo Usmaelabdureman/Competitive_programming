@@ -60,24 +60,33 @@ from bisect import bisect_left
 from typing import List
 class Solution:
     def kthSmallestSubarraySum(self, nums: List[int], k: int) -> int:
-        
-        def countSubarraysWithSumLessThanOrEqualTo(s):
-            left=0
-            curSum=0
-            cnt=0
-            for right,num in enumerate(nums):
-                curSum+=num
-                while curSum>s:
-                    curSum-=nums[left]
-                    left+=1
-                cnt+=right-left+1
-            return cnt >=k
-        low,high = min(nums),sum(nums)
-        return low+ bisect_left(range(low,high+1),True,key=countSubarraysWithSumLessThanOrEqualTo)
+        low, high = min(nums), sum(nums)
+        while low < high:
+            mid = (low + high) // 2
+            if self.countSubarrays(nums, mid) < k:
+                low = mid + 1
+            else:
+                high = mid
+        return low 
     
+    def countSubarrays(self, nums, target):
+        start = end = Sum = count = 0
+        while end < len(nums):
+            Sum += nums[end]
+            while Sum > target:
+                Sum -= nums[start]
+                start += 1
+            count += end - start + 1
+            end += 1
+        return count
+        
+        
 if __name__=="__main__":
     test_case_1= [2,1,3]
     k=4
     print(Solution().kthSmallestSubarraySum(test_case_1,k))
+    test_case_2 = [3,3,5,5]
+    k = 7
+    print(Solution().kthSmallestSubarraySum(test_case_2,k))
             
         
