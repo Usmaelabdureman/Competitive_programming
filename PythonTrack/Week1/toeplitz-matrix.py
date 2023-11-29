@@ -7,5 +7,4 @@ class Solution:
             for j in range(1, cols):
                 if matrix[i][j] != matrix[i - 1][j - 1]:
                     return False
-
         return True
