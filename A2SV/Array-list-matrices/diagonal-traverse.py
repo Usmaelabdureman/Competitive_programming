@@ -1,43 +1,42 @@
 class Solution:
     
     def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:
-        
+        visited = set()
         # Check for empty matrices
         if not matrix or not matrix[0]:
             return []
-        
-        # Variables to track the size of the matrix
-        N, M = len(matrix), len(matrix[0])
-        
-        # The two arrays as explained in the algorithm
-        result, intermediate = [], []
-        
-        # We have to go over all the elements in the first
-        # row and the last column to cover all possible diagonals
-        for d in range(N + M - 1):
-            
-            # Clear the intermediate array everytime we start
-            # to process another diagonal
-            intermediate.clear()
-            
-            # We need to figure out the "head" of this diagonal
-            # The elements in the first row and the last column
-            # are the respective heads.
-            r, c = 0 if d < M else d - M + 1, d if d < M else M - 1
-            
-            # Iterate until one of the indices goes out of scope
-            # Take note of the index math to go down the diagonal
-            while r < N and c > -1:
-                intermediate.append(matrix[r][c])
-                r += 1
-                c -= 1
-            
-            # Reverse even numbered diagonals. The
-            # article says we have to reverse odd 
-            # numbered articles but here, the numbering
-            # is starting from 0 :P
-            if d % 2 == 0:
-                result.extend(intermediate[::-1])
+        n=len(matrix)
+        m=len(matrix[0])
+        res=[]
+
+        def recur(r,c):
+
+            if r == n-1 and c == m-1:
+                res.append(matrix[r][c])
+                return res
+            visited.add((r,c))
+
+            res.append(matrix[r][c])
+            if (r+c)%2 == 0 :
+                if r-1 >=0 and c +1 <=m-1:
+                    if (r-1,c+1) not in visited:
+                        recur(r-1,c+1)
+                elif c+1 < m:
+                    if (r,c+1) not in visited:
+                        recur(r,c+1)
+                elif r+1 < n:
+                    if (r+1,c) not in visited:
+                        recur(r+1,c)
             else:
-                result.extend(intermediate)
-        return result        
+                if r+1 <=n-1 and c -1>=0:
+                    if (r+1,c-1) not in visited:
+                        recur(r+1,c-1)
+                elif r+1 < n:
+                    if (r+1,c) not in visited:
+                        recur(r+1,c)
+                elif c+1 < m:
+                    if (r,c+1) not in visited:
+                        recur(r,c+1)
+
+        recur(0,0)
+        return res
