@@ -3,8 +3,20 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        n=len(nums)
-        for i in range(n-1):
-            for j in range(n-i-1):
-                if nums[j]>nums[j+1]:
-                    nums[j],nums[j+1]=nums[j+1],nums[j]
+        # Methos one using counting sort
+
+        # method two using two pointer
+        i, j = -1, len(nums)
+        cur = 0
+        while cur < j:
+            if nums[cur] == 0:
+                i += 1
+                nums[cur], nums[i] = nums[i], nums[cur]
+                cur += 1
+            elif nums[cur] == 1:
+                cur += 1
+            else:
+                j -= 1
+                nums[cur], nums[j] = nums[j], nums[cur]
+            
+        
