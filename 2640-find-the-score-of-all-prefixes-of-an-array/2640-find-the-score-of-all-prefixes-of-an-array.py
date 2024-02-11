@@ -1,5 +1,3 @@
-from typing import List
-
 class Solution:
     def findPrefixScore(self, nums: List[int]) -> List[int]:
         n = len(nums)
