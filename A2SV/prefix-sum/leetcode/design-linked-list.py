@@ -42,9 +42,12 @@ class MyLinkedList:
         if index >= self.size:
             return
         prevNode = self.dummy
-        for _ in range(index):
+        i = 0
+        while i < index:
             prevNode = prevNode.next
-        t = prevNode.next
-        prevNode.next = t.next
-        t.next = None 
+            i += 1
+
+        tail = prevNode.next
+        prevNode.next = tail.next
+        tail.next = None 
         self.size -= 1
