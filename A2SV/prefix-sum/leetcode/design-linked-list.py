@@ -3,7 +3,7 @@ class MyLinkedList:
         self.head = self
         self.val = None
         self.next = None
-        
+           
     def get(self, index):
         current = self.head
         i = 0
@@ -21,13 +21,13 @@ class MyLinkedList:
 
     def addAtHead(self, val):
         if self.val != None:
-            addedValue = MyLinkedList()
-            addedValue.val = val
-            addedValue.next = self.head
-            self.head = addedValue
+            newNode = MyLinkedList()
+            newNode.val = val
+            newNode.next = self.head
+            self.head = newNode
         elif self.val == None:
             self.val = val
-
+        
     def addAtTail(self, val):
         if self.val == None:
             self.val = val
