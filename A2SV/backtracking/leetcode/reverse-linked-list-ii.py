@@ -18,11 +18,15 @@ class Solution:
 
         current = prev.next
         next_node = None
-        for _ in range(right - left + 1):
+
+        i = 0
+
+        while i < (right - left + 1):
             temp = current.next
             current.next = next_node
             next_node = current
             current = temp
+            i += 1
 
         prev.next.next = current
         prev.next = next_node
