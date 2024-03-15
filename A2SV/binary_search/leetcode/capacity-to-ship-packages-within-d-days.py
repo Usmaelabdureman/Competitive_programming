@@ -1,5 +1,3 @@
-from typing import List
-
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
     
@@ -25,6 +23,7 @@ class Solution:
             mid = low + (high - low) // 2
 
             if canShip(mid): 
+                
                 high = mid 
 
             else:
