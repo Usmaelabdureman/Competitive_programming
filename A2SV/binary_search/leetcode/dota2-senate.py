@@ -1,11 +1,9 @@
 class Solution:
     def predictPartyVictory(self, senate: str) -> str:
         
-        # Number of Senator
+       
         n = len(senate)
-
-        # Queues with Senator's Index.
-        # Index will be used to find the next turn of Senator
+        
         r_queue = deque()
         d_queue = deque()
 
