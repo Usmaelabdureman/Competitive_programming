@@ -3,9 +3,9 @@ class Solution:
         
         dup = []
         for num in nums:
-            index = abs(num) - 1
-            if nums[index] < 0:
-                dup.append(index + 1)
+            indx = abs(num) - 1
+            if nums[indx] < 0:
+                dup.append(indx + 1)
             else:
-                nums[index] *= -1
+                nums[indx] *= -1
         return dup
