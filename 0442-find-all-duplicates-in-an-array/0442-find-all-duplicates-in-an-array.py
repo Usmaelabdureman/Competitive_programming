@@ -1,12 +1,11 @@
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
         
-        freq = defaultdict(int)
-        res = []
-        
+        dup = []
         for num in nums:
-            freq[num] += 1
-            
-            if freq[num] == 2:
-                res.append(num)
-        return res
+            index = abs(num) - 1
+            if nums[index] < 0:
+                dup.append(index + 1)
+            else:
+                nums[index] *= -1
+        return dup
