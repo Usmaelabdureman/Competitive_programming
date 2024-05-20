@@ -14,7 +14,7 @@ class Solution:
         def dfs(s, i, t):
             nonlocal n
             if i == n:
-                ans.append(t.copy())
+                ans.append(t[:])
                 return
             for j in range(i, n):
                 if dp[i][j]:
