@@ -1,7 +1,8 @@
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
-        
+        # inplace modif
         N = len(triangle)
+        
         for i in range(N - 2, -1, -1):
             for j in range(i + 1):
                 
