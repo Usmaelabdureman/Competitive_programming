@@ -31,14 +31,15 @@ class Solution:
                 
             elif word[:-1] in good_words:
                 good_words.add(word)
+                
             if word in good_words:
                 if max_len < len(word):
                     max_len = len(word)
                     longest_word = word
+                    
                 elif max_len == len(word):
-
                     longest_word = min(word,longest_word)
-                
+        
         return longest_word
             
                 
