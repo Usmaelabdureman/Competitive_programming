@@ -5,7 +5,6 @@ class Solution:
         job_profile = [(0, 0)]
         for i in range(len(difficulty)):
             job_profile.append((difficulty[i], profit[i]))
-        # Sort by difficulty values in increasing order.
 
         job_profile.sort()
         for i in range(len(job_profile) - 1):
@@ -17,7 +16,6 @@ class Solution:
         for i in range(len(worker)):
             ability = worker[i]
 
-            # Find the job with just smaller or equal difficulty than ability.
 
             l, r = 0, len(job_profile) - 1
             job_profit = 0
@@ -28,7 +26,5 @@ class Solution:
                     l = mid + 1
                 else:
                     r = mid - 1
-            # Increment profit of current worker to total profit.
-
             net_profit += job_profit
         return net_profit
