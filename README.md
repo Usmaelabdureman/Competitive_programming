@@ -24,4 +24,12 @@
 |  |
 | ------- |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
+## Two Pointers
+|  |
+| ------- |
+| [0165-compare-version-numbers](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0165-compare-version-numbers) |
+## String
+|  |
+| ------- |
+| [0165-compare-version-numbers](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0165-compare-version-numbers) |
 <!---LeetCode Topics End-->
