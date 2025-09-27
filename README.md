@@ -7,6 +7,7 @@
 ## Array
 |  |
 | ------- |
+| [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
 ## Hash Table
 |  |
@@ -32,4 +33,12 @@
 |  |
 | ------- |
 | [0165-compare-version-numbers](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0165-compare-version-numbers) |
+## Math
+|  |
+| ------- |
+| [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
+## Geometry
+|  |
+| ------- |
+| [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
 <!---LeetCode Topics End-->
