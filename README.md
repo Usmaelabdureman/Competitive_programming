@@ -41,6 +41,7 @@
 | [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
+| [3336-water-bottles-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3336-water-bottles-ii) |
 ## Geometry
 |  |
 | ------- |
@@ -57,6 +58,7 @@
 |  |
 | ------- |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
+| [3336-water-bottles-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3336-water-bottles-ii) |
 ## Combinatorics
 |  |
 | ------- |
