@@ -7,6 +7,7 @@
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0011-container-with-most-water) |
 | [0407-trapping-rain-water-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0407-trapping-rain-water-ii) |
 | [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
@@ -32,6 +33,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0011-container-with-most-water) |
 | [0165-compare-version-numbers](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0165-compare-version-numbers) |
 ## String
 |  |
@@ -51,6 +53,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0011-container-with-most-water) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
 ## Sorting
 |  |
