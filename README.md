@@ -13,11 +13,13 @@
 | [0794-swim-in-rising-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
+| [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 ## Hash Table
 |  |
 | ------- |
+| [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
 ## Design
 |  |
@@ -28,6 +30,7 @@
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0407-trapping-rain-water-ii) |
 | [0794-swim-in-rising-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0794-swim-in-rising-water) |
+| [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
 ## Ordered Set
 |  |
@@ -58,6 +61,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0011-container-with-most-water) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
+| [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 ## Sorting
 |  |
 | ------- |
@@ -92,6 +96,7 @@
 |  |
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0794-swim-in-rising-water) |
+| [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 ## Union Find
 |  |
 | ------- |
