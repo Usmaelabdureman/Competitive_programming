@@ -13,6 +13,7 @@
 | [0794-swim-in-rising-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
@@ -20,6 +21,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
 ## Design
@@ -47,6 +49,7 @@
 |  |
 | ------- |
 | [0165-compare-version-numbers](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0165-compare-version-numbers) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 ## Math
 |  |
 | ------- |
@@ -68,6 +71,7 @@
 |  |
 | ------- |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Simulation
 |  |
