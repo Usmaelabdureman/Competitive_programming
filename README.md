@@ -18,6 +18,7 @@
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 ## Hash Table
 |  |
@@ -25,6 +26,7 @@
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 ## Design
 |  |
 | ------- |
@@ -57,6 +59,7 @@
 | [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3336-water-bottles-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3336-water-bottles-ii) |
 ## Geometry
 |  |
@@ -68,6 +71,7 @@
 | [0011-container-with-most-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0011-container-with-most-water) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
 | [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 ## Sorting
 |  |
 | ------- |
