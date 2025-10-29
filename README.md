@@ -72,6 +72,7 @@
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3336-water-bottles-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3336-water-bottles-ii) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Geometry
 |  |
@@ -144,6 +145,7 @@
 |  |
 | ------- |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Bitmask
 |  |
 | ------- |
