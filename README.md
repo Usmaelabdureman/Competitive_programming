@@ -21,6 +21,7 @@
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -33,6 +34,7 @@
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Design
 |  |
 | ------- |
@@ -73,6 +75,7 @@
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3336-water-bottles-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3336-water-bottles-ii) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Geometry
