@@ -74,6 +74,7 @@
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2174-next-greater-numerically-balanced-number) |
+| [2288-count-operations-to-obtain-zero](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2288-count-operations-to-obtain-zero) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3336-water-bottles-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3336-water-bottles-ii) |
@@ -106,6 +107,7 @@
 |  |
 | ------- |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2288-count-operations-to-obtain-zero](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2288-count-operations-to-obtain-zero) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3336-water-bottles-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3336-water-bottles-ii) |
