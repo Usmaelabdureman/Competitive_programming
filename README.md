@@ -10,6 +10,7 @@
 | [0011-container-with-most-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0011-container-with-most-water) |
 | [0407-trapping-rain-water-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0417-pacific-atlantic-water-flow) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0794-swim-in-rising-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
