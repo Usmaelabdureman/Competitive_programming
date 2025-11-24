@@ -14,6 +14,7 @@
 | [0794-swim-in-rising-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-largest-perimeter-triangle) |
+| [1018-binary-prefix-divisible-by-5](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1580-shuffle-the-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1580-shuffle-the-array) |
@@ -169,6 +170,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [1018-binary-prefix-divisible-by-5](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3676-smallest-number-with-all-set-bits) |
