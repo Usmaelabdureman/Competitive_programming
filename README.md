@@ -149,6 +149,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0417-pacific-atlantic-water-flow) |
 | [0794-swim-in-rising-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0794-swim-in-rising-water) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2872-maximum-number-of-k-divisible-components) |
 ## Binary Search
 |  |
 | ------- |
@@ -222,4 +223,8 @@
 |  |
 | ------- |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2618-maximize-the-minimum-powered-city) |
+## Tree
+|  |
+| ------- |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2872-maximum-number-of-k-divisible-components) |
 <!---LeetCode Topics End-->
