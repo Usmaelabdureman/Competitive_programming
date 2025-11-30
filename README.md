@@ -18,6 +18,7 @@
 | [1262-greatest-sum-divisible-by-three](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1580-shuffle-the-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1580-shuffle-the-array) |
+| [1590-make-sum-divisible-by-p](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1590-make-sum-divisible-by-p) |
 | [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
@@ -38,6 +39,7 @@
 |  |
 | ------- |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1590-make-sum-divisible-by-p](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1590-make-sum-divisible-by-p) |
 | [1612-avoid-flood-in-the-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1612-avoid-flood-in-the-city) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
@@ -196,6 +198,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [1590-make-sum-divisible-by-p](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1590-make-sum-divisible-by-p) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3616-make-array-elements-equal-to-zero) |
