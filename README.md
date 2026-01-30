@@ -8,6 +8,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0011-container-with-most-water) |
+| [0027-remove-element](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0027-remove-element) |
 | [0407-trapping-rain-water-ii](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0417-pacific-atlantic-water-flow) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0717-1-bit-and-2-bit-characters) |
@@ -66,6 +67,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0011-container-with-most-water) |
+| [0027-remove-element](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0027-remove-element) |
 | [0165-compare-version-numbers](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0165-compare-version-numbers) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## String
