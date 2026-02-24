@@ -73,6 +73,7 @@
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0020-valid-parentheses) |
 | [0165-compare-version-numbers](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0165-compare-version-numbers) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
@@ -224,6 +225,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0020-valid-parentheses) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Monotonic Stack
 |  |
