@@ -63,6 +63,7 @@
 |  |
 | ------- |
 | [2023-design-movie-rental-system](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2023-design-movie-rental-system) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -81,6 +82,7 @@
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Math
 |  |
@@ -97,6 +99,7 @@
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Geometry
@@ -145,6 +148,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0417-pacific-atlantic-water-flow) |
 | [0794-swim-in-rising-water](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/0794-swim-in-rising-water) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Matrix
 |  |
 | ------- |
@@ -239,4 +243,8 @@
 |  |
 | ------- |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2872-maximum-number-of-k-divisible-components) |
+## Union-Find
+|  |
+| ------- |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 <!---LeetCode Topics End-->
