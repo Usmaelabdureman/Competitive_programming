@@ -195,6 +195,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [1291-sequential-digits](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1291-sequential-digits) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/2174-next-greater-numerically-balanced-number) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Usmaelabdureman/Competitive_programming/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
